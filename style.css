@@ -1,0 +1,26 @@
+/* Add these to the existing CSS file */
+.games-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+#games h2 {
+    text-align: center;
+    margin: 40px 0;
+    color: #333;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.game-card h3 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.game-card p {
+    color: #666;
+    margin-bottom: 20px;
+}
